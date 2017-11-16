@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * Created by PhpStorm.
+ * User: robertsvx
+ * Date: 29/09/2017
+ * Time: 2:03
+ */
 
-
-   if( isset($_POST['tipo']) ) {
+if( isset($_POST['tipo']) ) {
     switch ($_POST['tipo']){
         case 'ciudades':
             getCiudades();
